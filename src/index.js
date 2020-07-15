@@ -299,6 +299,7 @@ export const ReactQueryDevtoolsPanel = React.forwardRef(
               borderRight: `1px solid ${theme.grayAlt}`,
               display: 'flex',
               flexDirection: 'column',
+              height: '100%',
             }}
           >
             <div
@@ -365,6 +366,7 @@ export const ReactQueryDevtoolsPanel = React.forwardRef(
                   style={{
                     display: 'flex',
                     alignItems: 'center',
+                    color: 'black',
                   }}
                 >
                   <Input
